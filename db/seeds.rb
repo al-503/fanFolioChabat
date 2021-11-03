@@ -7,3 +7,6 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Movie.destroy_all!
+
+
+vrkjfnbglebznmklqc,njezbfhhbzeqvnmk
