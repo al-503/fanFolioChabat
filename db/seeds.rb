@@ -47,7 +47,7 @@ didier = Movie.create!(title:"Didier", date: 1997, auteur:"Alain Chabat", realis
                                                                                                                                  où son pire cauchemar risque bien d'être la chance de sa vie.")
 didier.save!
 
-leGout = Movie.create!(title:"Le Goût Des Autres", date: 2000, auteur:"Jean-Pierre Bacri , Agnès Jaoui", realisateur:"Agnès Jaoui", genre:"Comédie Dramatique", sypnosis:"Castella, chef d'entreprise particulièrement inculte, 
+leGout = Movie.create!(title:"Le Goût Des Autres", date: 2000, auteur:"Jean-Pierre Bacri , Agnès Jaoui", realisateur:"Agnès Jaoui", genre:"Comédie dramatique", sypnosis:"Castella, chef d'entreprise particulièrement inculte, 
                                                                                                                                                                           n'a qu'une seule distraction : ses cours d'anglais. Quand un soir, 
                                                                                                                                                                           il voit sa prof d'anglais jouer dans une pièce de théâtre, c'est le coup de foudre. 
                                                                                                                                                                           Pour la séduire, il décide de s'introduire dans le monde des artistes et des intellectuels.")
@@ -59,12 +59,79 @@ astérix = Movie.create!(title:"Astérix et Obélix : Mission Cléopâtre", date
                                                                                                                                                                  Numérobis repense alors à ce druide gaulois, qui détient le secret bien gardé d'une potion magique.")
 astérix.save!
 
-pamelaRose = Movie.create!(title:"Mais qui a tué Pamela Rose ?", date: 2003, auteur:"Kad Merad, Olivier Baroux, Julien Rappeneau", realisateur:"Eric Lartigau", genre:"Comédie Policière", sypnosis:"Bullit et Ripper travaillent au FBI et ensemble, 
+pamelaRose = Movie.create!(title:"Mais qui a tué Pamela Rose ?", date: 2003, auteur:"Kad Merad, Olivier Baroux, Julien Rappeneau", realisateur:"Eric Lartigau", genre:"Comédie policière", sypnosis:"Bullit et Ripper travaillent au FBI et ensemble, 
                                                                                                                                                                                                      ils doivent élucider une sombre affaire : Pamela Rose, effeuilleuse,
                                                                                                                                                                                                      a été retrouvée assassinée dans une chambre de motel, à Bornsville.")
 pamelaRose.save!
 
-papa = Movie.create!(title:"Papa", date: 2005, auteur:"Maurice Barthélemy", realisateur:"Maurice Barthélemy", genre:"Comédie Dramatique", sypnosis:"Louis semble avoir le meilleur des papas, toujours souriant et rieur. 
+papa = Movie.create!(title:"Papa", date: 2005, auteur:"Maurice Barthélemy", realisateur:"Maurice Barthélemy", genre:"Comédie dramatique", sypnosis:"Louis semble avoir le meilleur des papas, toujours souriant et rieur. 
                                                                                                                                                     Pourtant, Louis n'a pas très envie de rire. Louis et son papa vont se retrouver, 
                                                                                                                                                     apprendre à sourire, pleurer, rire, s'aimer et se questionner. Car, au bout de la route, la vie continue.")
 papa.save!
+
+classeAmericaine = Movie.create!(title:"La Classe américaine", date: 1993, auteur:"Michel Hazanavicius et Dominique Mézerette", realisateur:"Michel Hazanavicius, Dominique Mézerette", genre:"Comédie par détournement d’images", sypnosis:"Sypnosis : Quand 'l'homme le plus classe du monde',
+                                                                                                                                                                                                                                             George Abitbol, est trouvé mort au large de l'atoll de Pom Pom Galli 
+                                                                                                                                                                                                                                             situé entre 'l'Australia' et la 'South America', dans 'l'Ocean South Pacific',
+                                                                                                                                                                                                                                             les journalistes Dave, Peter et Steven enquêtent sur ses dernières paroles. Au cours de leur enquête,
+                                                                                                                                                                                                                                             les journalistes vont approcher toutes les personnes qui l'ont connu pendant sa vie au 'Tegzas',
+                                                                                                                                                                                                                                             et découvrir qu'il n'avait pas plus de classe que ça.")
+classeAmericaine.save!
+
+preteMoiTaMain = Movie.create!(title:"Prête-moi ta main", date: 2006, auteur:"Laurent Zeitoun, Philippe Mechelen, Laurent Tirard, Grégoire Vigneron, Alain Chabat", realisateur:"Éric Lartigau", genre:"Comédie romantique", sypnosis:"La vie est facile pour Luis, 43 ans, célibataire heureux,
+                                                                                                                                                                                                                                       épanoui dans son métier de nez vedette chez un créateur de parfums,
+                                                                                                                                                                                                                                       couvé par sa mère et ses cinq soeurs... Cela aurait pu durer toute une vie,
+                                                                                                                                                                                                                                       mais voilà... Lassées de le materner, celles-ci décident qu'il est temps pour lui de se marier.")
+preteMoiTaMain.save!
+
+ageDeGlace = Movie.create!(title:"L'Âge de glace 4 : La Dérive des continents", date: 2012, auteur:"Michael Berg, Jason Fuchs, Lori Forte", realisateur:"Steve Martino, Mike Thurmeier", genre:"Film d’animation", sypnosis:"Alors que Scrat poursuit inlassablement son gland avec toujours autant de malchance,
+                                                                                                                                                                                                                             il va cette fois provoquer un bouleversement d'une ampleur planétaire. Le cataclysme continental qu'il déclenche propulse Manny,
+                                                                                                                                                                                                                             Diego et Sid dans leur plus grande aventure. Tandis que le monde bouge au sens propre du terme, Sid va retrouver son épouvantable grand-mère,
+                                                                                                                                                                                                                             et la petite troupe va affronter un ramassis de pirates bien décidés à les empêcher de rentrer chez eux.")
+ageDeGlace.save!
+
+guerreDesBoutons = Movie.create!(title:"La Guerre des boutons", date: 2011, auteur:"Yann Samuell", realisateur:"Yann Samuell", genre:"Comédie", sypnosis:"Une bande de garçons, menée par l'intrépide Lebrac,
+                                                                                                                                                          est en guerre contre les enfants du village voisin,
+                                                                                                                                                          leurs ennemis jurés. Une guerre sans merci, qui dure depuis des générations. 
+                                                                                                                                                          On se bat pour l'honneur et la fidélité et, pour gagner, tous les moyens sont bons.")
+guerreDesBoutons.save!
+
+realite = Movie.create!(title:"Réalité", date: 2014, auteur:"Quentin Dupieux", realisateur:"Quentin Dupieux", genre:"Comédie dramatique", sypnosis:"Un cameraman rêve d'être un vrai cinéaste. Il veut réaliser un film d'horreur.
+                                                                                                                                                    Bob Marshall, grand producteur, aime le projet. Avant de dire oui, il veut cependant la preuve que,
+                                                                                                                                                    dans son film, il y aura le meilleur cri humain jamais poussé. Le futur cinéaste a 48 heures pour le trouver.")
+realite.save!
+
+play = Movie.create!(title:"Play", date: 2019, auteur:"Anthony Marciano, Max Boublil", realisateur:"Anthony Marciano", genre:"Comédie", sypnosis:"En 1993, Max a 13 ans quand on lui offre sa première caméra.
+                                                                                                                                                  Pendant 25 ans il ne s'arrêtera pas de filmer. La bande de potes,
+                                                                                                                                                  les amours, les succès, les échecs. Des années 90 aux années 2010, 
+                                                                                                                                                  c'est le portrait de toute une génération qui se dessine à travers son objectif.")
+play.save!
+
+asterixDomaineDieu = Movie.create!(title:"Astérix : Le Domaine des dieux", date: 2014, auteur:"Alexandre Astier, Jean-Rémy François, Philip LaZebnik", realisateur:"Louis Clichy, Alexandre Astier", genre:"Film d animation 3D", sypnosis:"Les irréductibles Gaulois du village d'Astérix résistent
+                                                                                                                                                                                                                                            encore et toujours à l'envahisseur romain. L'empereur César comprend qu'il ne peut rien obtenir par la force,
+                                                                                                                                                                                                                                            car ces derniers disposent de la fameuse potion magique qui les rend invincibles. 
+                                                                                                                                                                                                                                            Il adopte alors une stratégie moins guerrière et a priori plus efficace. 
+                                                                                                                                                                                                                                            César dépêche ses meilleurs architectes afin de construire un ensemble d'immeubles baptisé le Domaine des dieux, destiné à des propriétaires romains.")
+asterixDomaineDieu.save!
+
+kaamelotPv = Movie.create!(title:"Kaamelott : Premier Volet", date: 2021, auteur:"Alexandre Astier", realisateur:"Alexandre Astier", genre:"Comédie d'aventure Heroic fantasy", sypnosis:"484 : Dix ans après que Lancelot a pris le pouvoir. Il organise une chasse aux sorcières 
+                                                                                                                                                                                          - aidés par des mercenaires saxons - pour retrouver Arthur et ses chevaliers,
+                                                                                                                                                                                          aujourd'hui, divisés et dispersés. Ce dernier, exilé jusqu'à son ancienne patrie, Rome,
+                                                                                                                                                                                          pour échapper à la folie de Lancelot se trouve dans la maison abandonnée de sa première femme Aconia.
+                                                                                                                                                                                          Souffrant sous le joug de Lancelot, le Royaume de Logres résiste et attend le retour de son héros.")
+kaamelotPv.save!
+
+valerian = Movie.create!(title:"Valérian et la Cité des mille planètes", date: 2017, auteur:"Luc Besson", realisateur:"Luc Besson", genre:"Science-fiction", sypnosis:"Au XXVIIIe siècle, Valérian et Laureline forment une équipe d'agents spatio-temporels chargés de maintenir l'ordre dans les territoires humains.
+                                                                                                                                                                       Mandaté par le ministre de la Défense, le duo part en mission sur l'extraordinaire cité intergalactique Alpha. Un mystère se cache au coeur d'Alpha,
+                                                                                                                                                                       une force obscure qui menace l'existence paisible de la Cité des mille planètes. Ils vont devoir engager une course contre la montre pour identifier la terrible menace et sauver Alpha.")
+valerian.save!
+
+marsupilami = Movie.create!(title:"Sur la piste du Marsupilami", date: 2012, auteur:"Alain Chabat, Jeremy Doner d'après le personnage de André Franquin", realisateur:"Alain Chabat", genre:"Comédie", sypnosis:"Quand Dan Geraldo arrive en Palombie, il ne se doute pas qu'il va faire la plus incroyable des découvertes.
+                                                                                                                                                                                                                 Avec Pablito, guide local plein de ressources, ils vont aller de surprise en surprise au cours d'une aventure 
+                                                                                                                                                                                                                 trépidante et surtout révéler une nouvelle extraordinaire : Le Marsupilami, animal mythique et facétieux, existe vraiment!")
+marsupilami.save!
+
+santaEtCie = Movie.create!(title:"Santa et Cie", date: 2017, auteur:"Alain Chabat", realisateur:"Alain Chabat", genre:"Comédie fantastique", sypnosis:"Rien ne va plus à l'approche du réveillon.
+                                                                                                                                                       Les 92 000 lutins chargés de fabriquer les cadeaux des enfants tombent tous malades en même temps.
+                                                                                                                                                       C'est un coup dur pour le père Noël -- il n'a pas le choix: il doit se rendre d'urgence sur Terre avec ses rennes pour chercher un remède.
+                                                                                                                                                       À son arrivée, il devra trouver des alliés pour l'aider à sauver la magie de Noël.")
+santaEtCie.save!
