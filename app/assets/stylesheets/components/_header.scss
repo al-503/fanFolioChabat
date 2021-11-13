@@ -6,3 +6,11 @@
     margin-right: 3%;
     margin-left: 3%;
 }
+
+.nav-item{
+    color: white;
+        &:hover{
+            color: white;
+            text-decoration: none;
+        }
+}
