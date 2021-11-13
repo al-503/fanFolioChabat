@@ -151,7 +151,7 @@ kaamelotPv = Movie.create!(title:"Kaamelott : Premier Volet", date: 2021, auteur
                                                                                                                                                                                           pour échapper à la folie de Lancelot se trouve dans la maison abandonnée de sa première femme Aconia.
                                                                                                                                                                                           Souffrant sous le joug de Lancelot, le Royaume de Logres résiste et attend le retour de son héros.")
 file = File.open("db/fixtures/images_movie/kaamelotPV.jpg")
-kaamelotPV.photo.attach(io: file, filename: "kaamelotPV.jpg", content_type: 'image/png')
+kaamelotPv.photo.attach(io: file, filename: "kaamelotPV.jpg", content_type: 'image/png')
 kaamelotPv.save!
 
 valerian = Movie.create!(title:"Valérian et la Cité des mille planètes", date: 2017, auteur:"Luc Besson", realisateur:"Luc Besson", genre:"Science-fiction", sypnosis:"Au XXVIIIe siècle, Valérian et Laureline forment une équipe d'agents spatio-temporels chargés de maintenir l'ordre dans les territoires humains.
