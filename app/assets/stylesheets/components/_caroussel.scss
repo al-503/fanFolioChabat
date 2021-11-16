@@ -1,0 +1,32 @@
+.movies-container{
+  margin: 2%  4% auto;
+}
+
+.movies-carousel{
+  height: 600px;
+  padding: 100px;
+  width: 100%;
+  //scroll avec une bar doit contenir tout ce code pour bien fonctionner 
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  user-select: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  transform: scale(0.98);
+  will-change: transform;
+  position: relative;
+}
+
+
+
+.movie{
+  width: 280px;
+  height: 360px;
+  margin: 0 2% auto;
+// permet le glissement l atéral des images
+  display: inline-flex;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
