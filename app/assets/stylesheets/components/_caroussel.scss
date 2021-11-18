@@ -17,8 +17,10 @@
   will-change: transform;
   position: relative;
 }
-
-
+//pour cacher la nav-bar doit s'appliquer au contenant
+.movies-carousel::-webkit-scrollbar {
+  display: none;
+}
 
 .movie{
   width: 280px;
