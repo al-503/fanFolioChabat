@@ -8,6 +8,8 @@
 
 Movie.destroy_all
 
+
+
 citéDeLaPeur = Movie.create!(title:"La Cité De La Peur", date: 1994, auteur:"Les Nuls", realisateur:"Alain Berbérian", genre:"Comédie", sypnosis:"Odile Deray, attachée de presse, vient au Festival de Cannes
                                                                                                                                                   pour présenter le film `Red is Dead'. Malheureusement, celui-ci est d'une
                                                                                                                                                   telle faiblesse que personne ne souhaite en faire l'écho. Cependant, 
