@@ -1,5 +1,4 @@
 .movie-body{
-
 }
 
 .movie-title{
@@ -21,12 +20,14 @@
   margin-top: 3%;
 }
 
-span{
+.span-movie-date{
   font-size: 2em;
   font-weight: 800;
+  position: relative;
+  top: 1.5rem;
 }
 
- em{
+em{
   font-style: normal;
   font-size: 1em;
   font-weight: 600;
