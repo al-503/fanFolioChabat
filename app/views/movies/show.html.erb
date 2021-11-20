@@ -4,14 +4,27 @@
 </div>
 
 <div class= "movie-body">
-    affiche de film
-    titre
+   
+	<div class="movie-pic"  style="background-image: url('<%= cl_image_path @movie.photo.key, crop: :fill %>')" >
+	</div>
 
-    liens vers sypnosis
-    
-    <p>Réalisateur - ........</p>
-    <p>Auteur - ........</p>
+	<h2 class="movie-title"><%= @movie.title %></h2>
 
-    <p>Genre - ........</p>
+    <p class="Provisoire">Sypnosis</p>
+	<div class="info-movie">
+
+		<div class= "info-réalaut">
+			<p><em>Réalisateur</em> - <%= @movie.realisateur %></p>
+
+			<p><em>Auteur</em> - <%= @movie.auteur %></p>
+		</div>
+
+		<div class="info-genre">
+			<p><em>Genre</em> - <%= @movie.genre %></p>
+		</div>
+
+	</div>	
+
+  <p><span> <%= @movie.date %> </span></p>
      
 </div> 
