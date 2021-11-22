@@ -20,7 +20,7 @@ ActiveStorage.start()
 
 // External imports
 import "bootstrap";
-import { moviesCaroussel } from '../components/moviesCaroussel';
+
 
 // Internal imports, e.g:
 // import { initSelect2 } from '../components/init_select2';
@@ -28,5 +28,5 @@ import { moviesCaroussel } from '../components/moviesCaroussel';
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
-  moviesCaroussel()
+  
 });
