@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "app_id": "app_f4fe1bcb-ca69-42d0-b840-09e2de03d286",
+      "org_id": "user_88ca48d4-dc38-4b2a-b945-052f356775fd",
+      "deploy_url": "https://push-n2-par-clevercloud-customers.services.clever-cloud.com/app_f4fe1bcb-ca69-42d0-b840-09e2de03d286.git",
+      "name": "fan_folio_chabat",
+      "alias": "fan_folio_chabat"
+    }
+  ]
+}
