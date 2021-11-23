@@ -81,4 +81,6 @@ test:
 #
 production:
   <<: *default
-  url: <%= ENV['POSTGRESQL_ADDON_URI'] %>
+  database: FANFOLIOCHABAT_production
+  username: FANFOLIOCHABAT
+  password: <%= ENV['FANFOLIOCHABAT_DATABASE_PASSWORD'] %>
