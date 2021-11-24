@@ -17,6 +17,13 @@
   will-change: transform;
   position: relative;
 }
+
+.movies-carousel.active {
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+  transform: scale(1);
+}
+
 //pour cacher la nav-bar doit s'appliquer au contenant
 .movies-carousel::-webkit-scrollbar {
   display: none;
