@@ -21,6 +21,7 @@ ActiveStorage.start()
 // External imports
 import "bootstrap";
 import { carouselle } from '../components/carouselle';
+import { synopsis } from '../components/synopsis';
 
 
 // Internal imports, e.g:
@@ -30,4 +31,5 @@ document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
   carouselle()
+  synopsis()
 });

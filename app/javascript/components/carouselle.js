@@ -28,6 +28,7 @@ const carouselle = () => {
     const walk = (x - startX) * 3;
     slider.scrollLeft = scrollLeft - walk;
   });
+
 }
 
 export{carouselle}
