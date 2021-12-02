@@ -33,9 +33,14 @@
   width: 280px;
   height: 360px;
   margin: 0 2% auto;
+  opacity: 0.7;
 // permet le glissement l atéral des images
   display: inline-flex;
   background-size: cover;
   align-items: center;
   justify-content: center;
+    &:hover{
+      transition: 1s;
+      opacity: 1;
+    }
 }
